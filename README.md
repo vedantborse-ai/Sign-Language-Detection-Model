@@ -1,40 +1,76 @@
 # 🧠 Sign-Language-Detection-Model
 
-This project is a Real-Time Sign Language Detection System that recognizes English alphabet signs (A–Z) using a webcam. It leverages MediaPipe for hand landmark detection and a Machine Learning model trained with custom-collected gesture data.
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)
+![OpenCV](https://img.shields.io/badge/OpenCV-Enabled-green?logo=opencv)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-Hands-orange?logo=google)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+![Status](https://img.shields.io/badge/Status-Active-success)
 
-🚀 Features
+---
 
-📸 Real-time hand gesture detection using OpenCV
-✋ Hand landmark tracking with MediaPipe Hands
-🧩 Custom-trained ML model for A–Z alphabet recognition
-🧠 Efficient and lightweight — runs smoothly on most systems
-💾 Includes data collection, training, and prediction scripts
+## 📝 Overview
 
-🧰 Tech Stack
+This project is a **Real-Time Sign Language Detection System** that recognizes **English alphabet signs (A–Z)** using a webcam.  
+It leverages **MediaPipe** for hand landmark detection and a **Machine Learning model** trained with **custom-collected gesture data**.
 
-Python
-OpenCV
-MediaPipe
-NumPy
-Scikit-learn
-Pickle
+---
 
-📂 Project Structure
-│
-├── collect_images.py      # Capture and save hand gesture data
-├── create_dataset.py      # Making the folders of the collected data
-├── train_classifier.py    # Training the Random Forest Regressor model 
-├── test_model.p           # Run real-time sign recognition
-└── requirements           # The versions of the tech stack required
+## 🚀 Features
 
-🧑‍💻 How It Works
+✨ **Real-time gesture recognition** using OpenCV  
+✋ **Hand landmark tracking** via MediaPipe Hands  
+🧠 **Custom-trained ML model** for A–Z alphabet detection  
+⚡ **Lightweight and efficient** — runs smoothly on most systems  
+💾 Includes data collection, model training, and prediction scripts  
 
-Data Collection – Capture images for each alphabet using collect_images.py.
-Model Training – Train a classifier using extracted landmarks.
-Real-Time Prediction – Detect hand landmarks live and predict corresponding alphabet signs.
+---
 
-🎯 Future Enhancements
+## 🛠️ Tech Stack
 
-Support for dynamic gestures (e.g., words or phrases) (Requiring huge dataset with more advanced GPUs)
-Integration with Deep Learning (CNN) models
-Add audio feedback for recognized signs
+| Category | Technologies |
+|-----------|---------------|
+| **Language** | Python |
+| **Libraries** | OpenCV, MediaPipe, NumPy, Scikit-learn, Pickle |
+| **Model** | Random Forest Regressor |
+| **Environment** | Jupyter / VS Code / PyCharm |
+
+---
+
+## 📂 Project Structure
+
+📁 Sign-Language-Detection-Model/
+├── collect_images.py # Capture and save hand gesture data
+├── create_dataset.py # Organize and preprocess collected data
+├── train_classifier.py # Train the Random Forest Regressor model
+├── test_model.p # Run real-time sign recognition
+├── requirements.txt # Dependencies and versions
+
+---
+
+## 🧩 How It Works
+
+1. 🖼️ **Data Collection** – Capture gesture images for each alphabet using `collect_images.py`.  
+2. 🧮 **Dataset Creation** – Extract and save hand landmarks with `create_dataset.py`.  
+3. 🧠 **Model Training** – Train the Random Forest classifier using `train_classifier.py`.  
+4. 🔍 **Real-Time Detection** – Use your webcam to detect and predict signs live.
+
+---
+
+## 🎯 Future Enhancements
+
+🚀 Support for **dynamic gestures** (words or phrases) — with a larger dataset and GPU training  
+🧬 Integration with **CNN / Deep Learning** models for better accuracy  
+🔊 Add **audio feedback** for recognized signs  
+🪄 Build a **user-friendly GUI** for interaction  
+
+---
+
+## 🧾 Author
+
+**👨‍💻 Vedant Pravin Borse**  
+📧 *Feel free to connect or contribute to improve this project!*
+
+---
+
+### 🌟 Star this repo if you find it helpful!
+
