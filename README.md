@@ -31,14 +31,16 @@ It leverages **MediaPipe** for hand landmark detection and a **Machine Learning 
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
+```bash
 📁 Sign-Language-Detection-Model/
-├── collect_images.py # Capture and save hand gesture data
-├── create_dataset.py # Organize and preprocess collected data
-├── train_classifier.py # Train the Random Forest Regressor model
-├── test_model.p # Run real-time sign recognition
-├── requirements.txt # Dependencies and versions
+├── collect_images.py      # Capture and save hand gesture data  
+├── create_dataset.py      # Organize and preprocess collected data  
+├── train_classifier.py    # Train the Random Forest Regressor model  
+├── test_model.p           # Run real-time sign recognition  
+└── requirements.txt       # Dependencies and versions  
+
 
 ---
 
@@ -58,14 +60,4 @@ It leverages **MediaPipe** for hand landmark detection and a **Machine Learning 
 🔊 Add **audio feedback** for recognized signs  
 🪄 Build a **user-friendly GUI** for interaction  
 
----
-
-## 🧾 Author
-
-**👨‍💻 Vedant Pravin Borse**  
-📧 *Feel free to connect or contribute to improve this project!*
-
----
-
-### 🌟 Star this repo if you find it helpful!
 
