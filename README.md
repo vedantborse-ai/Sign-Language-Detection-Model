@@ -1,10 +1,5 @@
 # 🧠 Sign-Language-Detection-Model
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)
-![OpenCV](https://img.shields.io/badge/OpenCV-Enabled-green?logo=opencv)
-![MediaPipe](https://img.shields.io/badge/MediaPipe-Hands-orange?logo=google)
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
-![Status](https://img.shields.io/badge/Status-Active-success)
 
 ---
 
