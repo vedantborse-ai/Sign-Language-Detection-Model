@@ -40,7 +40,7 @@ It leverages **MediaPipe** for hand landmark detection and a **Machine Learning 
 ├── train_classifier.py    # Train the Random Forest Regressor model  
 ├── test_model.p           # Run real-time sign recognition  
 └── requirements.txt       # Dependencies and versions  
-
+```
 
 ---
 
